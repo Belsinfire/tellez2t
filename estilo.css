@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    font-family: Arial, sans-serif;    
+}
+.container1{
+    text-align: center;
+}
+
+.name {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #2600ff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    padding: 10px; 
+    background-color: #9c0808; 
+    border: 2px solid #d49b9b; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: inline-block; 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.monolith {
+    width: 150px; 
+    height: 300px; 
+    background-color: #43acf1; 
+    position: relative;
+}
+
+.monolith .head {
+    width: 80px; 
+    height: 80px; 
+    background-color: #c4e600; 
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.monolith .hands {
+    position: absolute;
+    top: 80px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    width: 100px; 
+    height: 40px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.monolith .left-hand,
+.monolith .right-hand {
+    width: 30px; 
+    height: 40px; 
+    background-color: #ff2600; 
+}
+
+.monolith .left-hand {
+    border-top-left-radius: 30px; 
+}
+
+.monolith .right-hand {
+    border-top-right-radius: 30px; 
+}
+
+.monolith .middle {
+    width: 100px; 
+    height: 200px; 
+    background-color: #b5e927; 
+    position: absolute;
+    top: 120px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.monolith .middle-left {
+    width: 30px; 
+    height: 150px; 
+    background-color: #dff370; 
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+.monolith .middle-right {
+    width: 30px; 
+    height: 150px; 
+    background-color: #cdee54; 
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+.monolith .bottom {
+    width: 80px; 
+    height: 50px; 
+    background-color: #87b619; 
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
